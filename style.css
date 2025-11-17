@@ -6,14 +6,17 @@ body{
     justify-content:center;
     align-items:center;
     margin:0;
-    background:#424f6f;
+    background-image: url('spooky.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #container{
     width:400px;
     height:400px;
     padding:0;
     box-sizing:border-box;
-    background:#424f6f;
+    background-color:transparent;
 }
 *:after,
 *:before{
@@ -30,7 +33,7 @@ body{
     margin:50px auto 0;
     width:180px;
     height:220px;
-    background:#f2fbf1;
+    background:#BB6B00;
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
 }
@@ -43,7 +46,7 @@ body{
     width:36px;
     height:36px;
     border-radius:50%;
-    background: #f2fbf1;
+    background: #690500;
     animation:floaty .2s infinite;
 }
 #spooky #body:before{
@@ -66,11 +69,11 @@ body{
     display:block;
     width:30px;
     height:30px;
-    background: #252c49;
+    background: #2A0C4E;
     border-radius:50%;
 }
 #spooky #body #mouth{
-    background:#252c49;
+    background:#a7180d;
     margin:25px auto 0;
     width:60px;
     height:30px;
@@ -80,7 +83,7 @@ body{
 #spooky #body #mouth:before{
     content: '';
     display:block;
-    background:#fff;
+    background:#BB6B00;
     margin-left:20px;
     width:10px;
     height:10px;
@@ -98,12 +101,12 @@ body{
     content: ' ';
     width:36px;
     height:36px;
-    background:#f2fbf1;
+    background:#BB6B00;
     border-radius:50%;
 }
 #shadow{
     margin:-90px auto 0;
-    background:#252c49;
+    background:#77726c;
     width:180px;
     height:40px;
     border-radius:50%;
